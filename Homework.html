@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homewuurk!</title>
+    <style>
+        main {
+
+            font-family: 'Ubuntu', sans-serif;
+            
+            /*Slik legger man til kommentar i CSS*/
+            display: flex;
+            /*Flex brukes til å plassere innhold*/
+            flex-wrap: wrap;
+            /* Flex-wrap brukes til å pakke innholdet der hvor det er plass dyttes ting opp
+            og der det ikke er plass blir det flyttes ned*/
+
+            justify-content: center;
+            align-items: center;
+            /* Brukes for å sentrere innhold */
+
+            background-color: #004265;
+            border: black solid 5px;
+            min-height: 950px;
+        }
+
+        div {
+            max-width: 400px;
+            margin: 40px;
+            padding: 20px;
+            border: black solid 2px;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .Artur {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <div>
+            <h1>Padding</h1>
+            <p>Du har kanskje lagt merke til at noen ganger så har du godt med rom rundt teksten, f.eks. på en
+                button/knapp -
+                mens andre ganger så virker det som om teksten neste ikke får plass på knappen i det hele tatt. Det er
+                padding som bestemmer mellomrommet i boksen. </p>
+        </div>
+
+        <div class="Artur">
+            <h2>Margin</h2>
+            <p>Margin: margin : topp, høyre, bunn, venstre (eks margin: 25 px 50 px 100 px 50 px)
+                margin: topp/bunn høyre/venstre (eks margin: 25 px 50 px)
+                margin: topp høyre/venstre bunn (eks margin: 25 px 50 px 25 px)
+                margin: topp/høyre/venstre/bunn (alle sider har samme verdier)
+            </p>
+
+        </div>
+        <!-- class gir egen navn-->
+
+        <div>
+            <h1>Lenker</h1>
+            <p>For å legge til lenker bruker man koden <a href=“”></a>, og skriver inn http:// + link mellom anførselstegnene, f.eks. <a href=“https://youtube.com”></a>.
+               I mellom start “a href=“”> og slutt </a>, kan man legge til tekst som linken er knyttet til.
+            </p>
+        </div>
+
+        <div>
+            <h1>Bilder</h1>
+            <p>For å legge til bilder bruker man koden <img src=“” alt=“”>. Deretter skriver man ./filnavn i mellom “”. 
+               “Alt” står for alternative text, som brukes til å forklare hva bildet er dersom det skjer noe feil.
+            </p>
+        </div>
+
+        <div>
+            <h1>Bakgrunnsfarge</h1>
+            <p>Man endrer bakgrunnsfarge i CSS ved å spesifisere objektet med “objekt”{background-color: yellow;}  </p>
+        </div>
+
+        <div>
+            <h1>Main</h1>
+            <p>Main brukes til å legge elementer som er unike for sidene, områder som ikke er unike (som sidebars) bør holdes utenfor,
+               men innenfor “body”  </p>
+        </div>
+
+        <div>
+            <h1>Hexverdi</h1>
+            <p>En heksadesimal farge er spesifisert med: #RRGGBB.
+               RR (rød), GG (grønn) og BB (blå) er heksadesimale heltall mellom 00 og FF som spesifiserer intensiteten til fargen. </p>
+        </div>
+
+        <div>
+            <h1>
+                RGB_verdi
+            </h1>
+            <p>En RGB-fargeverdi er spesifisert med: rgb (rød, grønn, blå).
+               Hver parameter (rød, grønn og blå) definerer intensiteten til fargen som et helt tall mellom 0 og 255 </p>
+        </div>
+
+        <div>
+            <h1>
+                Flexible Box
+            </h1>
+            <p>Flexible Box Layout Module, gjør det enklere å designe fleksibel responsiv layoutstruktur uten å bruke flyt eller posisjonering. </p>
+        </div>
+
+    </main>
+</body>
+
+</html>
